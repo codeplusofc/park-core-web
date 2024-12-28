@@ -1,0 +1,165 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+    min-height: 100vh;
+    background: url("imgs/parque.jpg") no-repeat center center fixed;
+    background-size: cover;
+    font-family: 'Lato', sans-serif;
+    overflow: hidden;
+    color: #333;
+}
+
+.box {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content: center;
+    background: rgba(255, 255, 255, 0.85);
+    padding: 40px;
+    border-radius: 15px;
+    box-shadow: 0 8px 24px rgba(0, 0, 0, 0.2);
+    width: 100%;
+    max-width: 380px;
+    transition: transform 0.3s ease-in-out;
+}
+
+.box:hover {
+    transform: scale(1.03);
+}
+
+h1 {
+    font-size: 36px;
+    margin-bottom: 30px;
+    color: #3498db;
+    font-family: 'Poppins', sans-serif;
+    text-align: center;
+    letter-spacing: 1px;
+    font-weight: 700;
+    text-shadow: 2px 2px 4px rgba(0, 0, 0, 0.3);
+}
+
+input {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 16px;
+    color: #333;
+    background-color: #f4f6f9;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    margin-bottom: 15px;
+    transition: all 0.3s ease-in-out;
+}
+
+input:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+}
+
+button {
+    width: 100%;
+    max-width: 300px;
+    padding: 12px;
+    font-size: 16px;
+    background-color: #3498db;
+    color: white;
+    border: none;
+    border-radius: 30px;
+    margin-top: 15px;
+    cursor: pointer;
+    transition: background-color 0.3s ease, transform 0.2s ease-in-out;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+button:hover {
+    background-color: #2980b9;
+    transform: scale(1.05);
+}
+
+button:active {
+    background-color: #1f6f8b;
+}
+
+.btn_clear {
+    background-color: #e74c3c;
+    margin-top: 10px;
+}
+
+.btn_clear:hover {
+    background-color: #c0392b;
+}
+
+.textbox,
+.name,
+.userName,
+.email,
+.password,
+.phone {
+    font-size: 16px;
+    padding: 12px;
+    border: 2px solid #ddd;
+    border-radius: 30px;
+    background-color: #f4f6f9;
+    color: #333;
+    margin-bottom: 0px;
+    transition: all 0.3s ease-in-out;
+}
+
+.textbox:focus,
+.name:focus,
+.userName:focus,
+.email:focus,
+.password:focus,
+.phone:focus {
+    border-color: #3498db;
+    outline: none;
+    box-shadow: 0 0 8px rgba(52, 152, 219, 0.4);
+}
+
+.textbox::placeholder,
+.name::placeholder,
+.userName::placeholder,
+.email::placeholder,
+.password::placeholder,
+.phone::placeholder {
+    color: #7f8c8d;
+    font-style: italic;
+}
+
+.User_img {
+    width: 150px;
+    height: 150px;
+    border-radius: 50%;
+    margin-bottom: 20px;
+    border: 4px solid #3498db;
+    box-shadow: 0 4px 12px rgba(0, 0, 0, 0.1);
+}
+
+.Cadastro_img {
+    width: 100px;
+    height: 100px;
+    margin-top: 10px;
+    border-radius: 50%;
+}
+
+img {
+    object-fit: cover;
+    border-radius: 50%;
+}
+
+h2 {
+    font-size: 22px;
+    color: #333;
+    text-align: center;
+    margin-top: 20px;
+    font-family: 'Poppins', sans-serif;
+    letter-spacing: 1px;
+}
