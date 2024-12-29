@@ -88,15 +88,6 @@ button:active {
     background-color: #1f6f8b;
 }
 
-.btn_clear {
-    background-color: #e74c3c;
-    margin-top: 10px;
-}
-
-.btn_clear:hover {
-    background-color: #c0392b;
-}
-
 .textbox,
 .name,
 .userName,
